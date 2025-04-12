@@ -97,9 +97,9 @@ Expanded(
               ]
             ),
           ),
-SizedBox(height: 40,),
+SizedBox(height: 35,),
 Text("Forget Password?",style: TextStyle(color: Colors.grey),),
-SizedBox(height: 40,),
+SizedBox(height: 30,),
 Container(
   height: 50,
   margin: EdgeInsets.symmetric(horizontal: 50),
@@ -111,9 +111,9 @@ Container(
        child: Text("Login",style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
   ),
   ),
-  SizedBox(height:30 ,),
+  SizedBox(height:20 ,),
   Text("Wants to go in Social Media?",style: TextStyle(color: Colors.grey),),
-SizedBox(height: 30,),
+SizedBox(height: 10,),
   Row(
     children: <Widget>[
       Expanded(
@@ -128,7 +128,7 @@ SizedBox(height: 30,),
         ),
       ),
       ),
-      SizedBox(width: 30,),
+      SizedBox(width: 10,),
       Expanded(
         child: Container(
         height: 40,
